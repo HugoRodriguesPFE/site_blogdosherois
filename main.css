@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1,
+section h2{
+    font-family: "Bungee", cursive;
+}
+
+header{
+    padding: 16px 0;
+    background-color: gray;
+    color: white;
+    
+}
+#logo {
+    height: 135px;
+}
+header nav li{
+    display: inline;
+    margin-left: 24px;
+    font-size: 16px;
+}
+header nav li a {
+    color: white;
+}
+.container {
+    max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#conteudo{
+    background-color: black;
+    color: white;
+}
+#contatos{
+    background-color: gray;
+    color: white;
+}
+#copy{
+    background-color: rgb(165, 2, 2);
+    color: white;
+}
+.logos-list img{
+    height: 24px;
+}
+.logos-list li{
+    display: inline;
+}
+section .container{
+    align-items: flex-start;
+}
+section h2{
+    margin-bottom: 16px;
+}
+section p{
+    margin-bottom: 8px;
+}
+.autor{
+    margin-right: 32px;
+}
+.redes-sociais img{
+    height: 24px;
+}
+.redes-sociais li{
+    display: inline;
+    margin-right: 8px;
+}
+.redes-sociais li a{
+    text-decoration: none;
+}
+#contatos .container{
+    display: block;
+}
+.metodos-de-contato{
+    display: flex;
+    justify-content: space-between;
+}
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea{
+    resize: none;
+    height: 160px;
+}
+section h3 {
+    margin-bottom: 16px;
+}
+.container-2{
+    max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
+}
+footer{
+    padding: 16px 0;
+    text-align: center;
+}
+.autor{
+    height: 250px;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+header h1,
+section h2 {
+    font-weight: normal;
+}
